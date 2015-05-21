@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "People First",
+    "packageVersion": "0.0.0",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "snugug",
+    "githubRepository": "people-first"
+  }
+}
