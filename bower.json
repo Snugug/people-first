@@ -2,6 +2,7 @@
   "name": "people-first",
   "version": "0.0.0",
   "dependencies": {
-    "reveal.js": "~2.6.1"
+    "reveal.js": "~2.6.1",
+    "ibm-reveal": "git@git.design.ibm.com:uakravet/ibm-design-theme-for-reveal-js.git"
   }
 }

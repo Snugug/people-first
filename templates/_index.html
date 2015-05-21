@@ -12,9 +12,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
         <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
-    
-        <link rel="stylesheet" href="bower_components/reveal.js/css/theme/default.css" id="theme">
-    
+
+        <link rel="stylesheet" href="bower_components/ibm-reveal/css/theme/ibmdesign.css" id="theme">
+        <!-- Uncomment if you have a custom theme -->
+        <!-- <link rel="stylesheet" href="css/theme.css"> -->
+
 
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css" id="highlight-theme">
@@ -39,6 +41,12 @@
 
         <div class="reveal">
 
+            <header class="ibm-header">
+              <div class="header-logo">
+                <span class="ibm">IBM </span><span class="design">Design</span>
+              </div>
+            </header>
+
             <div class="slides">
 
                 <% _.forEach(slides, function(slide) { %>
@@ -55,10 +63,19 @@
                 <% }); %>
             </div>
 
+            <footer class="content-info" role="contentinfo">
+              <div class="intro-only">
+                <div class="intro-design-logo">
+                  <span class="ibm">IBM </span><span class="design">Design</span>
+                </div>
+              </div>
+            </footer>
+
         </div>
 
         <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
         <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+        <script src="bower_components/ibm-reveal/js/ibm-design-custom.js"></script>
         <script>
             // Configure Reveal
             // Full list of configuration options available here:
