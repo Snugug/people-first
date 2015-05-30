@@ -1,14 +1,37 @@
+.reveal .ibm-header,
+.content-info .intro-design-logo {
+  background: rgba(253, 253, 253, .75);
+}
+
 /**
-  * More Goodies!
+  * Background States
 **/
 .reveal .state-background {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  opacity: 0;
+
 }
 
 .vase .state-background {
-  background-image: url('http://snugug.github.io/images/vase.jpg');
+  background-image: url('/images/vase.jpg');
   background-size: 60vh;
   background-position: right;
+  opacity: 1;
+}
+
+.flowers .state-background {
+  background-image: url('/images/red-gerbera.jpg');
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+/**
+  * Custom state styling
+**/
+section[data-state='flowers'] h2 {
+  text-align: right;
+  width: 30vw;
+  float: right;
 }
