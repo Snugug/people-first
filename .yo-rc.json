@@ -5,6 +5,7 @@
     "useSass": false,
     "deployToGithubPages": true,
     "githubUsername": "snugug",
-    "githubRepository": "people-first"
+    "githubRepository": "people-first",
+    "revealTheme": "default"
   }
 }

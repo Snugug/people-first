@@ -101,14 +101,9 @@ module.exports = function(grunt) {
   });
   grunt.registerTask('test', '*Lint* javascript and coffee files.', ['coffeelint', 'jshint']);
   grunt.registerTask('serve', 'Run presentation locally and start watch process (living document).', ['buildIndex', 'connect:livereload', 'watch']);
-  grunt.registerTask('server', function() {
-    grunt.log.warn;
-    'The `server` task has been deprecated. Use `grunt serve` to start a server.';
-    return grunt.task.run(['serve']);
-  });
   grunt.registerTask('dist', 'Save presentation files to *dist* directory.', ['test', 'buildIndex', 'copy']);
   grunt.registerTask('deploy', 'Deploy to Github Pages', ['dist', 'buildcontrol']);
-  return grunt.registerTask('default', ['test', 'server']);
+  return grunt.registerTask('default', ['test', 'serve']);
 };
 
 // ---
