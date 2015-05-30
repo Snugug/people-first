@@ -6,12 +6,31 @@
         }
     },
     [
-      "vase.html",
-      {
-        "filename": "did-it-look-like-this.html",
-          "attr": {
-            "data-state": "vase"
+        "vase/vase.html",
+        {
+            "filename": "vase/did-it-look-like-this.html",
+            "attr": {
+                "data-state": "vase"
+            }
+        },
+        {
+            "filename": "vase/throw-that-away.html",
+            "attr": {
+                "data-state": "dark"
+            }
+        },
+        {
+            "filename": "vase/flowers.html",
+            "attr": {
+                "data-state": "flowers"
+            }
         }
-      }
     ]
+    ,{
+      "filename": "vase/whats-the-difference.html",
+        "attr": {
+          "data-state": "dark"
+      }
+    }
+
 ]
