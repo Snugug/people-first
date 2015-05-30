@@ -1,1 +1,17 @@
-["index.md"]
+[
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-state": "dark"
+        }
+    },
+    [
+      "vase.html",
+      {
+        "filename": "did-it-look-like-this.html",
+          "attr": {
+            "data-state": "vase"
+        }
+      }
+    ]
+]
