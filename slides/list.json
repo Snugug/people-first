@@ -6,7 +6,12 @@
         }
     },
     [
-        "vase/vase.html",
+        {
+          "filename": "vase/vase.html",
+            "attr": {
+              "data-timer": "120"
+          }
+        },
         {
             "filename": "vase/did-it-look-like-this.html",
             "attr": {
@@ -22,7 +27,8 @@
         {
             "filename": "vase/flowers.html",
             "attr": {
-                "data-state": "flowers"
+                "data-state": "flowers",
+                "data-timer": "120"
             }
         }
     ]

@@ -34,9 +34,14 @@
 /**
   * Custom state styling
 **/
-section[data-state='flowers'] h2 {
+section[data-state~='flowers'] h2 {
   text-align: right;
   width: 30vw;
+  float: right;
+}
+
+#time {
+  display: none;
   float: right;
 }
 
