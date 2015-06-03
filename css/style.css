@@ -15,14 +15,14 @@
 }
 
 .vase .state-background {
-  background-image: url('/images/vase.jpg');
+  background-image: url('images/vase.jpg');
   background-size: 60vh;
   background-position: right;
   opacity: 1;
 }
 
 .flowers .state-background {
-  background-image: url('/images/red-gerbera.jpg');
+  background-image: url('images/red-gerbera.jpg');
   transition: opacity 0.5s ease-in-out;
   opacity: 1;
 }
@@ -32,7 +32,7 @@
 }
 
 .design-thinking .slide-background {
-  background-image: url('/images/design-thinking.svg');
+  background-image: url('images/design-thinking.svg');
   background-size: 80%;
   background-position: 37vw center;
   transition: opacity 0.5s ease-in-out;
@@ -40,7 +40,7 @@
 }
 
 .galaxy .slide-background {
-  background-image: url('/images/galaxy.jpg');
+  background-image: url('images/galaxy.jpg');
 }
 
 /**
