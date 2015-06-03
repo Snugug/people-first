@@ -7,10 +7,10 @@
     },
     [
         {
-          "filename": "vase/vase.html",
+            "filename": "vase/vase.html",
             "attr": {
-              "data-timer": "120"
-          }
+                "data-timer": "120"
+            }
         },
         {
             "filename": "vase/did-it-look-like-this.html",
@@ -31,12 +31,63 @@
                 "data-timer": "120"
             }
         }
-    ]
-    ,{
-      "filename": "vase/whats-the-difference.html",
+    ],
+    [
+        {
+            "filename": "vase/whats-the-difference.html",
+            "attr": {
+                "data-state": "dark"
+            }
+        },
+        "vase/for-people-by-people.html"
+    ],
+    "dt/design-thinking.html",
+    {
+        "filename": "dt/dt-overview.html",
         "attr": {
-          "data-state": "dark"
-      }
-    }
-
+            "data-state": "design-thinking"
+        }
+    },
+    [
+        {
+            "filename": "understand/understand-intro.html"
+        }
+        ,{
+            "filename": "understand/alignment.html",
+            "attr": {
+                "data-section": "understand"
+            }
+        }
+        ,{
+            "filename": "understand/user-research.html",
+            "attr": {
+                "data-section": "understand"
+            }
+        }
+        ,{
+            "filename": "understand/domain-modeling.html",
+            "attr": {
+                "data-section": "understand"
+            }
+        }
+        ,{
+            "filename": "understand/continuous-understanding.html",
+            "attr": {
+                "data-section": "understand"
+            }
+        }
+        ,{
+            "filename": "understand/universe.html",
+            "attr": {
+                "data-state": "galaxy",
+                "data-section": "understand"
+            }
+        }
+        ,{
+            "filename": "understand/pbj.html",
+            "attr": {
+                "data-timer": "300"
+            }
+        }
+    ]
 ]

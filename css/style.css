@@ -31,6 +31,18 @@
   background: #121212;
 }
 
+.design-thinking .slide-background {
+  background-image: url('/images/design-thinking.svg');
+  background-size: 80%;
+  background-position: 37vw center;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.galaxy .slide-background {
+  background-image: url('/images/galaxy.jpg');
+}
+
 /**
   * Custom state styling
 **/
@@ -40,8 +52,23 @@ section[data-state~='flowers'] h2 {
   float: right;
 }
 
+section[data-state~='design-thinking'] h2 {
+  color: transparent;
+}
+
+section[data-state~='galaxy'] h2 {
+  color: #fdfdfd;
+  background: rgba(0, 44, 50, .25);
+  padding: 1em .25em;
+  text-align: center;
+}
+
 #time {
   display: none;
+  float: right;
+}
+
+#section {
   float: right;
 }
 
@@ -62,6 +89,33 @@ body {
 
 .reveal .progress span {
   background: #d74108;
+}
+
+.labeled-list dt {
+  margin-bottom: 0;
+}
+
+.labeled-list dd {
+  color: #006d5d;
+  font-weight: normal;
+  margin-left: 1.5rem;
+  margin-top: .5em;
+  line-height: 1.3em;
+}
+
+.reveal a:not(.image) {
+  color: #d74108;
+  text-decoration: none;
+  background-repeat: repeat-x;
+  background-image: linear-gradient(to top, #fdfdfd 75%, #d74108 75%);
+  background-size: 0.125em 0.1875em;
+  background-position: 0 1.084  em;
+  text-shadow: 0.0625em 0.0625em 0 #fdfdfd, -0.0625em 0 0 #fdfdfd;
+}
+
+.reveal a:not(.image):hover {
+  color: #872a0f;
+  background-image: linear-gradient(to top, #fdfdfd 75%, #872a0f 75%);
 }
 
 

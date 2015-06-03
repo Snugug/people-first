@@ -38,7 +38,7 @@
 
   Reveal.addEventListener('slidechanged', function (e) {
     var time = e.currentSlide.getAttribute('data-timer'),
-        display = document.querySelector('#time');
+        display = document.getElementById('time');
 
     window.clearInterval(countdown);
     display.style.display = 'none';
