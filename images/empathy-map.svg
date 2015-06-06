@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="49.2 0 61.6 90" enable-background="new 49.2 0 61.6 90" xml:space="preserve">
+<line fill="none" stroke="#003c32" stroke-width="0.75" stroke-miterlimit="10" x1="80" y1="90" x2="80" y2="67.5"/>
+<line fill="none" stroke="#3D3D3D" stroke-width="0.75" stroke-miterlimit="10" x1="80" y1="67.5" x2="58.3" y2="67.5"/>
+<line fill="none" stroke="#003c32" stroke-width="0.75" stroke-miterlimit="10" x1="101.8" y1="67.5" x2="80" y2="67.5"/>
+<circle fill="#FFFFFF" stroke="#003c32" stroke-width="0.75" stroke-miterlimit="10" cx="80" cy="30.9" r="13.7"/>
+<line fill="none" stroke="#003c32" stroke-width="0.75" stroke-miterlimit="10" x1="89.7" y1="21.1" x2="110.8" y2="0"/>
+<line fill="none" stroke="#003c32" stroke-width="0.75" stroke-miterlimit="10" x1="49.2" y1="61.6" x2="70.3" y2="40.5"/>
+<line fill="none" stroke="#003c32" stroke-width="0.75" stroke-miterlimit="10" x1="49.2" y1="0" x2="70.3" y2="21.1"/>
+<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 53.0863 2.1128)" fill="#003C32" font-family="'MyriadPro-Regular'" font-size="4.1411">Thinks/Feels</text>
+<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 57.2029 52.6888)" fill="#003C32" font-family="'MyriadPro-Regular'" font-size="4.1411">Hears</text>
+<line fill="none" stroke="#003c32" stroke-width="0.75" stroke-miterlimit="10" x1="89.7" y1="40.5" x2="110.8" y2="61.6"/>
+<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 91.4141 46.9995)" fill="#003C32" font-family="'MyriadPro-Regular'" font-size="4.1411">Says/Does</text>
+<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 99.9272 15.8122)" fill="#003C32" font-family="'MyriadPro-Regular'" font-size="4.1411">Sees</text>
+<text transform="matrix(1 0 0 1 65.6426 71.6631)" fill="#003C32" font-family="'MyriadPro-Regular'" font-size="4.1411">Pain</text>
+<text transform="matrix(1 0 0 1 86.9121 71.663)" fill="#003C32" font-family="'MyriadPro-Regular'" font-size="4.1411">Gain</text>
+<g>
+	<path fill="#003C32" d="M80,33.3c2.5,0,4.6-2.1,4.6-4.6c0-2.5-2.1-4.6-4.6-4.6s-4.6,2.1-4.6,4.6S77.5,33.3,80,33.3z M80,24.6
+		c2.3,0,4.1,1.8,4.1,4.1s-1.8,4.1-4.1,4.1s-4.1-1.8-4.1-4.1S77.7,24.6,80,24.6z"/>
+	<path fill="#003C32" d="M83.7,34.2h-7.3c-1,0-1.8,0.8-1.8,1.8v1.8h11V36C85.5,35,84.7,34.2,83.7,34.2z"/>
+</g>
+</svg>

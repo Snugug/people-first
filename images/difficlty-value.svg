@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 160 125.3" enable-background="new 0 0 160 125.3" xml:space="preserve">
+<g>
+	<g>
+		<line fill="none" stroke="#003c32" stroke-miterlimit="10" x1="15" y1="110.3" x2="158.9" y2="110.3"/>
+		<g>
+			<polygon points="155.6,114.4 154.9,113.7 158.5,110.3 154.9,107 155.6,106.2 160,110.3 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#003c32" stroke-miterlimit="10" x1="15" y1="109.2" x2="15" y2="0"/>
+		<g>
+			<polygon points="19.1,105.9 18.4,105.3 15,108.9 11.6,105.3 10.9,105.9 15,110.3 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 24.5669 120.9615)" font-family="'MyriadPro-Regular'" font-size="12">value to users</text>
+<text transform="matrix(-1.346898e-10 -1 1 -1.346898e-10 10.5365 99.8602)" font-family="'MyriadPro-Regular'" font-size="12">difficulty to create</text>
+<path opacity="0.25" fill="none" stroke="#003c32" stroke-miterlimit="10" d="M15,0c0,61,64.9,110.3,145,110.3"/>
+<path opacity="0.25" fill="none" stroke="#003c32" stroke-miterlimit="10" d="M82.7-0.3c0,33.1,34.4,59.9,77,59.9"/>
+</svg>
