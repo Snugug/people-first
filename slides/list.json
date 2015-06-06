@@ -42,6 +42,10 @@
         "vase/for-people-by-people.html"
     ],
     "dt/design-thinking.html",
+    [
+        "dt/not-about-design.html",
+        "dt/not-a-process.html"
+    ],
     {
         "filename": "dt/dt-overview.html",
         "attr": {
@@ -51,43 +55,130 @@
     [
         {
             "filename": "understand/understand-intro.html"
-        }
-        ,{
+        },
+        {
             "filename": "understand/alignment.html",
             "attr": {
                 "data-section": "understand"
             }
-        }
-        ,{
+        },
+        {
             "filename": "understand/user-research.html",
             "attr": {
                 "data-section": "understand"
             }
-        }
-        ,{
+        },
+        {
             "filename": "understand/domain-modeling.html",
             "attr": {
                 "data-section": "understand"
             }
-        }
-        ,{
-            "filename": "understand/continuous-understanding.html",
-            "attr": {
-                "data-section": "understand"
-            }
-        }
-        ,{
+        },
+        {
             "filename": "understand/universe.html",
             "attr": {
                 "data-state": "galaxy",
                 "data-section": "understand"
             }
+        },
+        {
+            "filename": "understand/continuous-understanding.html",
+            "attr": {
+                "data-section": "understand"
+            }
         }
-        ,{
-            "filename": "understand/pbj.html",
+    ],
+    [
+        "expand/expand.html",
+        {
+            "filename": "expand/ideation.html",
+            "attr": {
+                "data-section": "expand"
+            }
+        },
+        {
+            "filename": "expand/diverge.html",
+            "attr": {
+                "data-section": "expand"
+            }
+        },
+        {
+            "filename": "expand/converge.html",
+            "attr": {
+                "data-section": "expand"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "uee/uee.html",
+            "attr": {
+                "data-timer": "120"
+            }
+        },
+        {
+            "filename": "uuee/ee2.html",
+            "attr": {
+                "data-timer": "120"
+            }
+        },
+        {
+            "filename": "uee/empathy-map.html",
+            "attr": {
+                "data-state": "empathy-map"
+            }
+        },
+        {
+            "filename": "uee/empathy-map.html",
+            "attr": {
+                "data-state": "empathy-map",
+                "data-timer": "120"
+            }
+        },
+        {
+            "filename": "uee/de.html",
             "attr": {
                 "data-timer": "300"
             }
+        },
+        {
+            "filename": "uee/map-expand.html",
+            "attr": {
+                "data-state": "value-map"
+            }
+        },
+        {
+            "filename": "uee/map-expand.html",
+            "attr": {
+                "data-state": "value-map",
+                "data-timer": "300"
+            }
         }
+    ],
+
+    [
+      {
+          "filename": "prototype/prototype.html",
+          "attr": {}
+      },
+      {
+          "filename": "prototype/to-life.html",
+          "attr": {
+              "data-section": "Prototype"
+          }
+      },
+      {
+          "filename": "prototype/collaborate.html",
+          "attr": {
+              "data-section": "Prototype"
+          }
+      },
+      {
+          "filename": "prototype/code.html",
+          "attr": {
+              "data-section": "Prototype"
+          }
+      }
     ]
+
 ]
