@@ -39,6 +39,16 @@
   opacity: 1;
 }
 
+.empathy-map .slide-background {
+  background-image: url('../images/empathy-map.svg');
+  background-size: 60vh;
+}
+
+.value-map .slide-background {
+  background-image: url('../images/difficlty-value.svg');
+  background-size: 60vh;
+}
+
 .galaxy .slide-background {
   background-image: url('../images/galaxy.jpg');
 }
@@ -52,7 +62,9 @@ section[data-state~='flowers'] h2 {
   float: right;
 }
 
-section[data-state~='design-thinking'] h2 {
+section[data-state~='design-thinking'] h2,
+section[data-state~='empathy-map'] h2,
+section[data-state~='value-map'] h2 {
   color: transparent;
 }
 
