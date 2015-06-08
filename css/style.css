@@ -8,23 +8,19 @@
 **/
 .reveal .state-background {
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  opacity: 0;
-
 }
 
 .vase .state-background {
   background-image: url('../images/vase.jpg');
+  background-position: center;
   background-size: 60vh;
   background-position: right;
-  opacity: 1;
 }
 
 .flowers .state-background {
   background-image: url('../images/red-gerbera.jpg');
-  transition: opacity 0.5s ease-in-out;
-  opacity: 1;
+  background-position: center;
+  background-size: cover;
 }
 
 .dark .slide-background {
@@ -33,24 +29,39 @@
 
 .design-thinking .slide-background {
   background-image: url('../images/design-thinking.svg');
-  background-size: 80%;
-  background-position: 37vw center;
-  transition: opacity 0.5s ease-in-out;
-  opacity: 1;
+  background-size: 107%;
+  background-position: 12vw center;
+  transition: opacity .3s;
+}
+
+.dt-rad .slide-background {
+  background-image: url('../images/dt-rad.svg');
+  background-size: 107%;
+  background-position: 12vw center;
 }
 
 .empathy-map .slide-background {
   background-image: url('../images/empathy-map.svg');
+  background-position: center;
   background-size: 60vh;
 }
 
 .value-map .slide-background {
   background-image: url('../images/difficlty-value.svg');
-  background-size: 60vh;
+  background-position: center;
+  background-size: 90vh;
 }
 
 .galaxy .slide-background {
   background-image: url('../images/galaxy.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.challenge .slide-background {
+  background-image: url('../images/challenge.jpg');;
+  background-position: center;
+  background-size: cover;
 }
 
 /**
@@ -63,8 +74,10 @@ section[data-state~='flowers'] h2 {
 }
 
 section[data-state~='design-thinking'] h2,
+section[data-state~='dt-rad'] h2,
 section[data-state~='empathy-map'] h2,
-section[data-state~='value-map'] h2 {
+section[data-state~='value-map'] h2,
+section[data-state~='challenge'] h2 {
   color: transparent;
 }
 
