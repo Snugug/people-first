@@ -27,6 +27,12 @@
   background: #121212;
 }
 
+.design-camp .state-background {
+  background-image: url('../images/design-camp.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
 .design-thinking .slide-background {
   background-image: url('../images/design-thinking.svg');
   background-size: 107%;
@@ -73,6 +79,7 @@ section[data-state~='flowers'] h2 {
   float: right;
 }
 
+section[data-state~='design-camp'] h2,
 section[data-state~='design-thinking'] h2,
 section[data-state~='dt-rad'] h2,
 section[data-state~='empathy-map'] h2,
