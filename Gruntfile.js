@@ -53,7 +53,7 @@ module.exports = function(grunt) {
         files: [
           {
             expand: true,
-            src: ['slides/**', 'bower_components/**', 'js/**', 'images/**', 'css/**', 'audio/**'],
+            src: ['slides/**', 'bower_components/**', 'js/**', 'images/**', 'css/**', 'audio/**', 'videos/**'],
             dest: 'dist/'
           }, {
             expand: true,
