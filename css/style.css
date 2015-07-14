@@ -1,0 +1,188 @@
+.reveal .ibm-header,
+.content-info .intro-design-logo {
+  background: rgba(253, 253, 253, .75);
+}
+
+/**
+  * Background States
+**/
+.reveal .state-background {
+  background-repeat: no-repeat;
+}
+
+.vase .state-background {
+  background-image: url('../images/vase.jpg');
+  background-position: center;
+  background-size: 60vh;
+  background-position: right;
+}
+
+.flowers .state-background {
+  background-image: url('../images/red-gerbera.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.dark .slide-background {
+  background: #121212;
+}
+
+.design-camp .state-background {
+  background-image: url('../images/design-camp.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.design-thinking .slide-background {
+  background-image: url('../images/design-thinking.svg');
+  background-size: 107%;
+  background-position: 12vw center;
+  transition: opacity .3s;
+}
+
+.dt-rad .slide-background {
+  background-image: url('../images/dt-rad.svg');
+  background-size: 107%;
+  background-position: 12vw center;
+}
+
+.empathy-map .slide-background {
+  background-image: url('../images/empathy-map.svg');
+  background-position: center;
+  background-size: 60vh;
+}
+
+.value-map .slide-background {
+  background-image: url('../images/difficlty-value.svg');
+  background-position: center;
+  background-size: 90vh;
+}
+
+.galaxy .slide-background {
+  background-image: url('../images/galaxy.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.challenge .slide-background {
+  background-image: url('../images/challenge.jpg');;
+  background-position: center;
+  background-size: cover;
+}
+
+/**
+  * Custom state styling
+**/
+section[data-state~='flowers'] h2 {
+  text-align: right;
+  width: 30vw;
+  float: right;
+}
+
+section[data-state~='design-camp'] h2,
+section[data-state~='design-thinking'] h2,
+section[data-state~='dt-rad'] h2,
+section[data-state~='empathy-map'] h2,
+section[data-state~='value-map'] h2,
+section[data-state~='challenge'] h2 {
+  color: transparent;
+}
+
+section[data-state~='galaxy'] h2 {
+  color: #fdfdfd;
+  background: rgba(0, 44, 50, .25);
+  padding: 1em .25em;
+  text-align: center;
+}
+
+#time {
+  display: none;
+  float: right;
+}
+
+#section {
+  float: right;
+}
+
+/**
+  * IBM Overrides
+**/
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  color: #006d5d;
+}
+
+.reveal {
+  color: #003c32;
+}
+
+body {
+  background: #fdfdfd;
+}
+
+.reveal .progress span {
+  background: #d74108;
+}
+
+.labeled-list dt {
+  margin-bottom: 0;
+}
+
+.labeled-list dd {
+  color: #006d5d;
+  font-weight: normal;
+  margin-left: 1.5rem;
+  margin-top: .5em;
+  line-height: 1.3em;
+}
+
+.reveal a:not(.image) {
+  color: #d74108;
+  text-decoration: none;
+  background-repeat: repeat-x;
+  background-image: linear-gradient(to top, #fdfdfd 75%, #d74108 75%);
+  background-size: 0.125em 0.1875em;
+  background-position: 0 1.084  em;
+  text-shadow: 0.0625em 0.0625em 0 #fdfdfd, -0.0625em 0 0 #fdfdfd;
+}
+
+.reveal a:not(.image):hover {
+  color: #872a0f;
+  background-image: linear-gradient(to top, #fdfdfd 75%, #872a0f 75%);
+}
+
+
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+  border-right-color: #008571;
+}
+.reveal .controls div.navigate-left:hover,
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: #41d6c3;
+}
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+  border-top-color: #008571;
+}
+.reveal .controls div.navigate-down:hover,
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: #41d6c3;
+}
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {
+  border-left-color: #008571;
+}
+.reveal .controls div.navigate-right:hover,
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: #41d6c3;
+}
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color: #008571;
+}
+.reveal .controls div.navigate-up:hover,
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #41d6c3;
+}

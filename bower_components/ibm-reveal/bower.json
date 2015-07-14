@@ -1,0 +1,32 @@
+{
+  "name": "ibm-reveal",
+  "version": "0.0.0",
+  "authors": [
+    "Una Kravets"
+  ],
+  "description": "IBM Reveal.js Theme",
+  "main": "css/theme/ibmdesign.css",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "CONTRIBUTING.md",
+    "Gruntfile.js",
+    "LICENSE",
+    "img/",
+    "index.html",
+    "package.json",
+    "css/theme/**",
+    "!css/theme/ibmdesign.css.map",
+    "!css/theme/ibmdesign.css",
+    "!css/theme/source/ibmdesign.scss",
+    "!css/theme/template/**/*"
+  ],
+  "devDependencies": {
+    "sass-toolkit": "~2.7.0"
+  }
+}

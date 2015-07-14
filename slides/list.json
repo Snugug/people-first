@@ -1,0 +1,267 @@
+[
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-state": "dark"
+        }
+    },
+    [
+        {
+            "filename": "vase/vase.html",
+            "attr": {
+                "data-timer": "120"
+            }
+        },
+        {
+            "filename": "vase/did-it-look-like-this.html",
+            "attr": {
+                "data-state": "vase"
+            }
+        },
+        {
+            "filename": "vase/throw-that-away.html",
+            "attr": {
+                "data-state": "dark"
+            }
+        },
+        {
+            "filename": "vase/flowers.html",
+            "attr": {
+                "data-state": "flowers",
+                "data-timer": "120"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "vase/whats-the-difference.html",
+            "attr": {
+                "data-state": "dark"
+            }
+        },
+        "vase/for-people-by-people.html"
+    ],
+    [
+      "dt/design-thinking.html",
+      {
+          "filename": "dt/design-camp.html",
+          "attr": {
+              "data-state": "design-camp"
+          }
+      },
+      "dt/design-thinking.html"
+    ],
+    [
+        "dt/not-about-design.html",
+        "dt/not-a-process.html"
+    ],
+    {
+        "filename": "dt/dt-overview.html",
+        "attr": {
+            "data-state": "design-thinking",
+            "data-background-transition": "fade"
+        }
+    },
+    [
+        {
+            "filename": "understand/understand-intro.html"
+        },
+        {
+            "filename": "understand/alignment.html",
+            "attr": {
+                "data-section": "understand"
+            }
+        },
+        {
+            "filename": "understand/user-research.html",
+            "attr": {
+                "data-section": "understand"
+            }
+        },
+        {
+            "filename": "understand/domain-modeling.html",
+            "attr": {
+                "data-section": "understand"
+            }
+        },
+        {
+            "filename": "understand/universe.html",
+            "attr": {
+                "data-state": "galaxy",
+                "data-section": "understand"
+            }
+        },
+        {
+            "filename": "understand/continuous-understanding.html",
+            "attr": {
+                "data-section": "understand"
+            }
+        }
+    ],
+    [
+        "expand/expand.html",
+        {
+            "filename": "expand/ideation.html",
+            "attr": {
+                "data-section": "expand"
+            }
+        },
+        {
+            "filename": "expand/diverge.html",
+            "attr": {
+                "data-section": "expand"
+            }
+        },
+        {
+            "filename": "expand/converge.html",
+            "attr": {
+                "data-section": "expand"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "uee/uee.html",
+            "attr": {
+                "data-timer": "120"
+            }
+        },
+        {
+            "filename": "uee/uee2.html",
+            "attr": {
+                "data-timer": "120"
+            }
+        },
+        {
+            "filename": "uee/empathy-map.html",
+            "attr": {
+                "data-state": "empathy-map"
+            }
+        },
+        {
+            "filename": "uee/de.html",
+            "attr": {
+                "data-timer": "300"
+            }
+        },
+        {
+            "filename": "uee/map-expand.html",
+            "attr": {
+                "data-state": "value-map"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "prototype/prototype.html",
+            "attr": {}
+        },
+        {
+            "filename": "prototype/to-life.html",
+            "attr": {
+                "data-section": "Prototype"
+            }
+        },
+        {
+            "filename": "prototype/collaborate.html",
+            "attr": {
+                "data-section": "Prototype"
+            }
+        },
+        {
+            "filename": "prototype/code.html",
+            "attr": {
+                "data-section": "Prototype"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "evaluate/evaluate.html",
+            "attr": {}
+        },
+        {
+            "filename": "evaluate/verify.html",
+            "attr": {
+                "data-section": "Evaluate"
+            }
+        },
+        {
+            "filename": "evaluate/interview.html",
+            "attr": {
+                "data-section": "Evaluate"
+            }
+        },
+        {
+            "filename": "evaluate/analyze.html",
+            "attr": {
+                "data-section": "Evaluate"
+            }
+        },
+        {
+            "filename": "evaluate/no-sacred-truths.html",
+            "attr": {
+                "data-section": "Evaluate"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "dt/dt-overview.html",
+            "attr": {
+                "data-state": "design-thinking"
+            }
+        },
+        {
+            "filename": "dt-rad.html",
+            "attr": {
+                "data-state": "dt-rad"
+            }
+        }
+    ],
+    {
+        "filename": "process/it-all-started-with-our-motion-designer.html",
+        "attr": {}
+    },
+    [
+        {
+            "filename": "process/collaboration.html",
+            "attr": {
+                "data-section": "GitHub Issues"
+            }
+        },
+        {
+            "filename": "process/tags.html",
+            "attr": {
+                "data-section": "GitHub Issues"
+            }
+        },
+        {
+            "filename": "process/tasks.html",
+            "attr": {
+                "data-section": "GitHub Issues"
+            }
+        },
+        {
+            "filename": "process/tasks2.html",
+            "attr": {
+                "data-section": "GitHub Issues"
+            }
+        }
+    ],
+    {
+        "filename": "process/retrospective.html",
+        "attr": {}
+    },
+    {
+        "filename": "challenge.html",
+        "attr": {
+            "data-state": "challenge",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "thanks.html",
+        "attr": {}
+    }
+]

@@ -1,0 +1,1 @@
+Copy `_index.html` to your templates directory if you're using the Reveal yeoman generator (`generator-reveal`)
